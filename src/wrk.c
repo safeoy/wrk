@@ -167,7 +167,7 @@ int main(int argc, char **argv) {
 
     if (complete / cfg.connections > 0) {
         int64_t interval = runtime_us / (complete / cfg.connections);
-        stats_correct(statistics.latency, interval);
+        //stats_correct(statistics.latency, interval);
     }
 
     print_stats_header();
